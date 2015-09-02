@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_suivre"
+          android:icon="@drawable/gl_tick"
+          android:title="Suivre" />
+ 
+    <item android:id="@+id/menu_facebook"
+          android:icon="@drawable/gl_facebook"
+          android:title="Partager sur Facebook" />
+ 
+    <item android:id="@+id/menu_twitter"
+          android:icon="@drawable/gl_twitter"
+          android:title="Partager sur Twitter" />
+ 
+    <item android:id="@+id/menu_email"
+          android:icon="@drawable/gl_mail"
+          android:title="Partager par Email" />
+ 
+</menu>

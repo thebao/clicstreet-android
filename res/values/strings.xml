@@ -3,7 +3,26 @@
 
     <string name="app_name">Clicstreet</string>
     <string name="action_settings">Settings</string>
+    <string name="action_search">Rechercher</string>
+    <string name="search_hint">Rechercher</string>
+    <string name="search_settings">Rechercher</string>
     <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="last_user">vvvv</string>
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="main_no_items">Ce lieu ne dispose pas encore de carte.</string>
+    <string name="title_activity_web_login">Clicstreet</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_route">RouteActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="loading_text">Chargement...</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="failed_search">Impossible de se connecter au service de recherche...</string>
+    <string name="no_results">Aucun résultat pour: </string>
+    <string name="count_results">résultat</string>
+    <string name="title_activity_register">RegisterActivity</string>
 
 </resources>

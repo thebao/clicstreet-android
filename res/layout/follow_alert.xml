@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timeTable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView 
+        android:text="S'ABONNER"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f2f2f2"
+        android:padding="12dp"
+        android:layout_marginBottom="-3dp"
+        android:background="#5d5d5d"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	        android:background="@drawable/droppedf2"
+        android:weightSum="2">
+	    <TextView 
+	        android:id="@+id/appBtn"
+	        android:text="sur l'Application"
+	        android:layout_width="0dip"
+	        android:drawableTop="@drawable/share_app_blue"
+	        android:textColor="#143cff"
+	        android:padding="12dp"
+	        android:gravity="center"
+	        android:textSize="18sp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        />
+	    <View
+		    android:layout_width="0dip"
+		    android:layout_height="fill_parent"
+		    android:background="#b3b3b3"/>
+	    <TextView 
+	        android:id="@+id/mailBtn"
+	        android:text="par Email"
+	        android:layout_width="0dip"
+	        android:drawableTop="@drawable/share_mail_blue"
+	        android:textColor="#143cff"
+	        android:padding="12dp"
+	        android:gravity="center"
+	        android:textSize="18sp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        />
+	</LinearLayout>
+</LinearLayout>

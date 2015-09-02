@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+   	xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/commerce_form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    tools:listitem="@android:layout/simple_list_item_2" >
+    <LinearLayout
+        android:id="@+id/load_status"
+        android:layout_width="fill_parent"	
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+    	android:background="#f2f2f2"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_square" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/loading_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout 
+    	android:orientation="vertical"
+        android:id="@+id/wrapper"
+        android:visibility="gone"
+        android:background="#f2f2f2"
+        
+        android:layout_width="fill_parent"	
+        android:layout_height="fill_parent"
+        >
+    	<LinearLayout
+        android:id="@+id/btnBar"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_gravity="center"
+	    android:weightSum="5">
+	    	
+	     <Button
+	         android:id="@+id/followBtn"
+	         style="@style/AppBaseTheme"
+	         android:layout_width="0dip"
+	    	android:paddingTop="2dp"
+	         android:layout_height="wrap_content"
+             android:drawableTop="@drawable/comm_star_icon"
+	         android:background="@drawable/button_blue"
+         	android:textSize="8sp"
+       		android:layout_weight="1"
+	         android:text="SUIVRE"
+	         android:textColor="#b3b3b3" />
+	
+	     <Button
+	         android:id="@+id/shareBtn"
+	         style="@style/AppBaseTheme"
+	         android:layout_width="0dip"
+	    	android:paddingTop="2dp"
+	         android:layout_height="wrap_content"
+             android:drawableTop="@drawable/comm_share_icon"
+         	android:textSize="8sp"
+		    android:textColor="#f2f2f2"
+	         android:background="@drawable/button_even"
+        	android:layout_weight="1"
+	         android:text="PARTAGER"/>
+	     <Button
+		    android:id="@+id/buttonCall"
+		    android:layout_width="0dip"
+	    	android:paddingTop="2dp"
+		    android:layout_height="wrap_content"
+             android:drawableTop="@drawable/comm_phone_icon"
+	         android:background="@drawable/button_odd"
+         	android:textSize="8sp"
+		    android:text="APPELER"
+        	android:layout_weight="1"
+		    android:textColor="#b3b3b3" />
+		<Button
+		    android:id="@+id/buttonTime"
+		    android:layout_width="0dip"
+	    	android:paddingTop="2dp"
+		    android:layout_height="wrap_content"
+             android:drawableTop="@drawable/comm_clock_icon"
+	         android:background="@drawable/button_even"
+         	android:textSize="8sp"
+		    android:text="OUVERT"
+        	android:layout_weight="1"
+		    android:textColor="#f2f2f2" />
+	     <Button
+	         android:id="@+id/closeBtn"
+	         style="@style/AppBaseTheme"
+	         android:layout_width="0dip"
+	    	android:paddingTop="2dp"
+	         android:layout_height="wrap_content"
+         	android:textSize="8sp"
+             android:drawableTop="@drawable/comm_route_icon"
+	         android:background="@drawable/button_odd"
+        android:layout_weight="1"
+	         android:text="ITINÉRAIRE"
+	         android:textColor="#b3b3b3" />
+
+	
+	</LinearLayout>
+<LinearLayout
+         android:id="@+id/bigBar"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+        android:layout_below="@+id/btnBar"
+	    android:layout_height="wrap_content"
+	    android:gravity="left|left"
+	    android:layout_gravity="top|left"> 
+	    <LinearLayout
+	         android:id="@+id/wrapLogo"
+		    android:orientation="vertical"
+		    android:layout_width="75dp"
+		    android:layout_height="wrap_content"
+		    android:gravity="left"> 
+		    <ImageView
+		        android:id="@+id/logoImg"
+		        android:layout_width="fill_parent"
+		        android:layout_height="75dp"
+		        android:gravity="top|left"/>
+		    <TextView
+		         android:id="@+id/commOuvert"
+		        android:layout_width="fill_parent"
+			     android:layout_height="wrap_content"
+	     	     android:layout_gravity="center"
+	  			 android:gravity="center"
+		         android:paddingLeft="4dp"
+		         
+		         android:text=""
+		         android:textColor="#FFFFFF"
+		         android:textStyle="bold" />
+		    </LinearLayout>
+	<FrameLayout
+         android:id="@+id/bigBar"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:gravity="top|left"
+	    android:layout_gravity="top">
+	    
+	   
+		     <ImageView
+		         android:id="@+id/coverImg"
+		         android:layout_width="fill_parent"
+		         android:layout_height="fill_parent"
+		         android:layout_alignParentLeft="true"
+		         android:layout_alignParentTop="true"
+		         android:layout_gravity="top|left" />
+		     
+	     <TextView
+	         android:id="@+id/commName"
+	     	android:layout_width="fill_parent"
+	     	android:layout_height="fill_parent"
+	        android:layout_below="@+id/logoImg"
+	         android:gravity="center"
+	         android:paddingLeft="4dp"
+         	android:textAppearance="?android:attr/textAppearanceLarge"
+	         android:text=""
+	         android:background="#99F2F2F2"
+	         android:textColor="#000000"
+	         android:textStyle="bold" />
+			    
+	</FrameLayout>
+</LinearLayout>
+
+
+
+	    <ScrollView
+            android:id="@+id/descScroll"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="8dp"
+		    android:layout_marginTop="12dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    android:layout_gravity="center"
+        	android:layout_below="@+id/dateBar">
+    <TextView
+        android:id="@+id/commDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+     android:layout_marginLeft="4dp"
+     
+     android:layout_marginRight="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+	</ScrollView>
+        <LinearLayout
+            android:id="@+id/botCont"
+            android:background="#F2F2F2"
+            android:orientation="vertical"
+        	android:layout_height="1dip"
+            android:layout_width="match_parent">
+    <ScrollView
+	      android:id="@+id/menuScroll"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+		<LinearLayout
+		    android:id="@+id/contBox"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/coverImg"
+		    android:layout_centerHorizontal="true"
+		    android:orientation="vertical" >
+
+	
+	    <TextView
+	        android:id="@+id/commSub"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+	        android:layout_below="@+id/commName"
+	        android:gravity="left"
+	        android:paddingBottom="4dp"
+	        android:visibility="gone"
+	        android:paddingLeft="4dp"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#000000" />
+			    
+		 <TextView
+		     android:id="@+id/commAdd"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="4dp"
+	        android:visibility="gone"
+		     android:gravity="center"
+		     android:text=""
+		     android:textAppearance="?android:attr/textAppearanceSmall"
+		     android:textColor="#000000" />
+			<LinearLayout
+			    android:id="@+id/leftBox"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="12dp"
+			    android:orientation="vertical" >
+
+        		<TextView
+        		    android:id="@+id/textFlashs"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:text="Derniers Flashs!"
+        		    android:textColor="#b3b3b3"
+        		    android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+		     	<LinearLayout
+				    android:id="@+id/flashBox"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+			    </LinearLayout>
+			  
+			    
+			    
+       		 </LinearLayout>
+
+			<LinearLayout
+			    android:id="@+id/rightBox"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:padding="12dp"
+			    android:orientation="vertical" >
+
+		     	<TextView
+		     	    android:id="@+id/textPropos"
+		     	    android:layout_width="wrap_content"
+		     	    android:layout_height="wrap_content"
+		     	    android:text=""
+		     	    android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+		     	<LinearLayout
+				    android:id="@+id/catBox"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+        			android:layout_below="@+id/textPropos"
+        		    android:textColor="#b3b3b3"
+				    android:orientation="vertical" >
+			    </LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		
+	  </ScrollView>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/drag_bar"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#b3b3b3"
+            android:layout_below="@+id/botCont"
+       		android:layout_gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/drag_bar_icon"
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+            	
+       			android:layout_centerInParent="true"
+                android:src="@drawable/slidebar_plus"
+                />   
+        </RelativeLayout>
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+	</LinearLayout>
+</RelativeLayout>

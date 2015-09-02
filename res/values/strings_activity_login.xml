@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="title_activity_login">Clicstreet</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in_register">Connexion</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_progress_signing_in">Connexion&#8230;</string>
+    <string name="error_invalid_email">Login incorrect</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="last_user">Hello world!</string>
+    <string name="action_guest_sign_in">Invité</string>
+    <string name="action_register">Créer un compte</string>
+    <string name="action_forgot">Mot de passe oublié</string>
+    <string name="action_remember_me">Se souvenir de moi</string>
+    <string name="action_remembered_sign_in">Connexion</string>
+    <string name="action_remembered_log_out">Déconnexion</string>
+    <string name="warn_no_gmaps_msg">Veuillez installer Google Maps.</string>
+    <string name="warn_no_gmaps_install">Installer</string>
+    <string name="warn_no_conn_msg">Vous n\'êtes pas connecté à Internet!\nVeuillez vérifier vos réglages.</string>
+    <string name="warn_no_conn_exit">Quitter</string>
+    <string name="warn_no_conn_settings">Réglages</string>
+    <string name="warn_no_conn_title">Connexion inexistante</string>
+    <string name="times_header">HORAIRES</string>
+    <string name="times_am">Matin</string>
+    <string name="times_pm">Après-midi</string>
+    <string name="times_monday">Lundi</string>
+    <string name="times_tuesday">Mardi</string>
+    <string name="times_wednesday">Mercredi</string>
+    <string name="times_thursday">Jeudi</string>
+    <string name="times_friday">Vendredi</string>
+    <string name="times_saturday">Samedi</string>
+    <string name="times_sunday">Dimanche</string>
+
+</resources>

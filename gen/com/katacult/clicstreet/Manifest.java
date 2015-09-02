@@ -9,6 +9,6 @@ package com.katacult.clicstreet;
 
 public final class Manifest {
     public static final class permission {
-        public static final String MAPS_RECEIVE="com.katacult.clicstreet.permission.MAPS_RECEIVE";
+        public static final String C2D_MESSAGE="com.katacult.clicstreet.permission.C2D_MESSAGE";
     }
 }

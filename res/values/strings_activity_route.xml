@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="title_activity_route">Clicstreet</string>
+
+    <string name="motion_car">Itinéraire en voiture pour </string>
+    <string name="motion_bike">Itinéraire à vélo pour </string>
+    <string name="motion_walk">Itinéraire à pied pour </string>
+
+</resources>

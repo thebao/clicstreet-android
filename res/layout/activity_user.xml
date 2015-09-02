@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuScroll"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f2f2f2" >
+
+
+        
+
+        <TextView
+            android:id="@+id/lastFlash"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_latest_flash"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="#b3b3b3"
+            android:textColor="#f2f2f2"
+            android:padding="16dp" />
+		<ScrollView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+	        <LinearLayout
+	            android:id="@+id/flashBox"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:gravity="top|center"
+	            android:orientation="vertical" >
+	        </LinearLayout>
+        </ScrollView>
+
+      
+        <TextView
+            android:id="@+id/listSubs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_list_of_subs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="#b3b3b3"
+            android:textColor="#f2f2f2"
+            android:padding="16dp" />
+		<ScrollView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+	        <LinearLayout
+	            android:paddingTop="2dp"
+	            android:id="@+id/subBox"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:gravity="left"
+	            android:orientation="vertical" >
+	        </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

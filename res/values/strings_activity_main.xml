@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="title_activity_login">Clicstreet</string>
+
+    <!-- Strings related to login -->
+    <string name="shops_open_now">Commerces ouverts en ce moment</string>
+    <string name="search_no_results">Pas de résultats...</string>
+    <string name="shops_all"></string>
+
+
+</resources>

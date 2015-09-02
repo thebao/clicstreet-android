@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timeTable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView 
+        android:text="MON PROFIL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f2f2f2"
+        android:padding="4dp"
+        android:background="#5d5d5d"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        
+        />
+    <Button 
+        android:id="@+id/favBtn"
+        android:text="FAVORIS"
+        android:drawableTop="@drawable/prof_fav"
+        android:layout_width="fill_parent"
+        android:background="@drawable/droppedf2"
+        android:textColor="#b3b3b3"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        />
+    <Button 
+        android:id="@+id/flashBtn"
+        android:text="FLASHES"
+        android:drawableTop="@drawable/prof_flash"
+        android:layout_width="fill_parent"
+        android:background="@drawable/droppedf2"
+        android:textColor="#b3b3b3"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        />
+    <Button 
+        android:id="@+id/discBtn"
+        android:text="DÉCONNEXION"
+        android:drawableTop="@drawable/prof_disc"
+        android:layout_width="fill_parent"
+        android:background="@drawable/droppedf2"
+        android:textColor="#b3b3b3"
+        android:padding="12dp"
+        android:layout_marginBottom="-4dp"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

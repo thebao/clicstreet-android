@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_login">Clicstreet</string>
+
+    <!-- Strings related to login -->
+    <string name="my_account">Mon Compte</string>
+    <string name="my_name">Nom</string>
+    <string name="my_email">Email</string>
+    <string name="my_subs">Favoris</string>
+    <string name="my_home">Chez moi</string>
+    <string name="pick_my_home">Localiser</string>
+    <string name="update_account">Mettre à Jour</string>
+    <string name="disc_btn">Déconnexion</string>
+    <string name="my_latest_flash">MES DERNIERS FLASHS</string>
+    <string name="my_list_of_subs">MES ABONNEMENTS</string>
+    <string name="show_all_flashes">Tout Afficher</string>
+
+</resources>

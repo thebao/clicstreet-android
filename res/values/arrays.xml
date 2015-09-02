@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="options_suivi">
+        <item>"sur l'App"</item>
+        <item>"par Email"</item>
+    </string-array>
+    <string-array  name="options_itinerary">
+        <item>"à pied"</item>
+        <item>"en vélo"</item>
+        <item>"en voiture"</item>
+    </string-array>
+    <string-array  name="options_partage">
+        <item>"sur Facebook"</item>
+        <item>"sur Twitter"</item>
+        <item>"par Email"</item>
+    </string-array>
+    <string-array  name="option_filters">
+        <item>"A votre Service"</item>
+        <item>"Alimentation"</item>
+        <item>"Associations"</item>
+        <item>"Cinéma"</item>
+        <item>"Commerces"</item>
+        <item>"Culture"</item>
+        <item>"Hôtels"</item>
+        <item>"Multimédia"</item>
+        <item>"Restaurants"</item>
+        <item>"Services Publics"</item>
+        <item>"Sortir"</item>
+        <item>"Transport"</item>
+    </string-array>
+    <string-array  name="check_all">
+        <item>"Tous"</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>"Lundi"</item>
+        <item>"Mardi"</item>
+        <item>"Mercredi"</item>
+        <item>"Jeudi"</item>
+        <item>"Vendredi"</item>
+        <item>"Samedi"</item>
+        <item>"Dimanche"</item>
+    </string-array>
+</resources>
